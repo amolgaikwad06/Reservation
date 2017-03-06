@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C501E121E5A87C8000E2148 /* MyReservationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C501E111E5A87C8000E2148 /* MyReservationsTableViewCell.swift */; };
+		3C501E171E5AA289000E2148 /* Reservations+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C501E151E5AA289000E2148 /* Reservations+CoreDataClass.swift */; };
+		3C501E181E5AA289000E2148 /* Reservations+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C501E161E5AA289000E2148 /* Reservations+CoreDataProperties.swift */; };
 		3CD971731E568EFA000138D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD971721E568EFA000138D8 /* AppDelegate.swift */; };
-		3CD971751E568EFA000138D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD971741E568EFA000138D8 /* ViewController.swift */; };
+		3CD971751E568EFA000138D8 /* MyReservationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD971741E568EFA000138D8 /* MyReservationsViewController.swift */; };
 		3CD971781E568EFA000138D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD971761E568EFA000138D8 /* Main.storyboard */; };
 		3CD9717A1E568EFA000138D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD971791E568EFA000138D8 /* Assets.xcassets */; };
 		3CD9717D1E568EFB000138D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD9717B1E568EFB000138D8 /* LaunchScreen.storyboard */; };
+		3CFB9D401E57C4F500BA2EC6 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB9D3F1E57C4F500BA2EC6 /* ScheduleViewController.swift */; };
+		3CFB9D451E57D09700BA2EC6 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB9D441E57D09700BA2EC6 /* CustomView.swift */; };
+		3CFB9D491E58CC4100BA2EC6 /* CalenderDatesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB9D481E58CC4100BA2EC6 /* CalenderDatesCollectionViewCell.swift */; };
+		3CFB9D4C1E58E01100BA2EC6 /* CalenderDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB9D4B1E58E01100BA2EC6 /* CalenderDates.swift */; };
+		3CFB9D501E5945AC00BA2EC6 /* AvailableTimesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB9D4F1E5945AC00BA2EC6 /* AvailableTimesCollectionViewCell.swift */; };
+		3CFB9D581E5A0FB700BA2EC6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB9D571E5A0FB700BA2EC6 /* Utility.swift */; };
+		3CFB9D5A1E5A339C00BA2EC6 /* SpaServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB9D591E5A339C00BA2EC6 /* SpaServiceViewController.swift */; };
+		3CFB9D5C1E5A33BD00BA2EC6 /* PromoContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB9D5B1E5A33BD00BA2EC6 /* PromoContentViewController.swift */; };
+		3CFB9D7F1E5A58F500BA2EC6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB9D7E1E5A58F500BA2EC6 /* CoreDataStack.swift */; };
+		3CFB9D8A1E5A5CB000BA2EC6 /* Reservation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB9D881E5A5CB000BA2EC6 /* Reservation.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C501E111E5A87C8000E2148 /* MyReservationsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyReservationsTableViewCell.swift; sourceTree = "<group>"; };
+		3C501E151E5AA289000E2148 /* Reservations+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reservations+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		3C501E161E5AA289000E2148 /* Reservations+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reservations+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		3CD9716F1E568EFA000138D8 /* Reservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD971721E568EFA000138D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CD971741E568EFA000138D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CD971741E568EFA000138D8 /* MyReservationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReservationsViewController.swift; sourceTree = "<group>"; };
 		3CD971771E568EFA000138D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CD971791E568EFA000138D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CD9717C1E568EFB000138D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CD9717E1E568EFB000138D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFB9D3F1E57C4F500BA2EC6 /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		3CFB9D441E57D09700BA2EC6 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		3CFB9D481E58CC4100BA2EC6 /* CalenderDatesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderDatesCollectionViewCell.swift; sourceTree = "<group>"; };
+		3CFB9D4B1E58E01100BA2EC6 /* CalenderDates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderDates.swift; sourceTree = "<group>"; };
+		3CFB9D4F1E5945AC00BA2EC6 /* AvailableTimesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableTimesCollectionViewCell.swift; sourceTree = "<group>"; };
+		3CFB9D571E5A0FB700BA2EC6 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		3CFB9D591E5A339C00BA2EC6 /* SpaServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaServiceViewController.swift; sourceTree = "<group>"; };
+		3CFB9D5B1E5A33BD00BA2EC6 /* PromoContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoContentViewController.swift; sourceTree = "<group>"; };
+		3CFB9D7E1E5A58F500BA2EC6 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		3CFB9D891E5A5CB000BA2EC6 /* Reservation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reservation.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,75 @@
 		3CD971711E568EFA000138D8 /* Reservation */ = {
 			isa = PBXGroup;
 			children = (
-				3CD971721E568EFA000138D8 /* AppDelegate.swift */,
-				3CD971741E568EFA000138D8 /* ViewController.swift */,
+				3CFB9D871E5A5BE400BA2EC6 /* Core Data */,
+				3CFB9D4A1E58DF7600BA2EC6 /* Model */,
+				3CFB9D431E57D04E00BA2EC6 /* Custom Controls */,
+				3CFB9D421E57C6B700BA2EC6 /* Views */,
+				3CFB9D411E57C68700BA2EC6 /* AppDelegate */,
+				3CD971841E56B51B000138D8 /* ViewControllers */,
 				3CD971761E568EFA000138D8 /* Main.storyboard */,
-				3CD971791E568EFA000138D8 /* Assets.xcassets */,
 				3CD9717B1E568EFB000138D8 /* LaunchScreen.storyboard */,
+				3CD971791E568EFA000138D8 /* Assets.xcassets */,
 				3CD9717E1E568EFB000138D8 /* Info.plist */,
 			);
 			path = Reservation;
+			sourceTree = "<group>";
+		};
+		3CD971841E56B51B000138D8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CD971741E568EFA000138D8 /* MyReservationsViewController.swift */,
+				3CFB9D3F1E57C4F500BA2EC6 /* ScheduleViewController.swift */,
+				3CFB9D591E5A339C00BA2EC6 /* SpaServiceViewController.swift */,
+				3CFB9D5B1E5A33BD00BA2EC6 /* PromoContentViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3CFB9D411E57C68700BA2EC6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3CD971721E568EFA000138D8 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3CFB9D421E57C6B700BA2EC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CFB9D481E58CC4100BA2EC6 /* CalenderDatesCollectionViewCell.swift */,
+				3CFB9D4F1E5945AC00BA2EC6 /* AvailableTimesCollectionViewCell.swift */,
+				3C501E111E5A87C8000E2148 /* MyReservationsTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3CFB9D431E57D04E00BA2EC6 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				3CFB9D441E57D09700BA2EC6 /* CustomView.swift */,
+			);
+			name = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		3CFB9D4A1E58DF7600BA2EC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CFB9D4B1E58E01100BA2EC6 /* CalenderDates.swift */,
+				3CFB9D571E5A0FB700BA2EC6 /* Utility.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3CFB9D871E5A5BE400BA2EC6 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				3CFB9D7E1E5A58F500BA2EC6 /* CoreDataStack.swift */,
+				3C501E151E5AA289000E2148 /* Reservations+CoreDataClass.swift */,
+				3C501E161E5AA289000E2148 /* Reservations+CoreDataProperties.swift */,
+				3CFB9D881E5A5CB000BA2EC6 /* Reservation.xcdatamodeld */,
+			);
+			name = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +223,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CD971751E568EFA000138D8 /* ViewController.swift in Sources */,
+				3CFB9D7F1E5A58F500BA2EC6 /* CoreDataStack.swift in Sources */,
+				3C501E171E5AA289000E2148 /* Reservations+CoreDataClass.swift in Sources */,
+				3CFB9D501E5945AC00BA2EC6 /* AvailableTimesCollectionViewCell.swift in Sources */,
+				3CFB9D8A1E5A5CB000BA2EC6 /* Reservation.xcdatamodeld in Sources */,
+				3CD971751E568EFA000138D8 /* MyReservationsViewController.swift in Sources */,
 				3CD971731E568EFA000138D8 /* AppDelegate.swift in Sources */,
+				3CFB9D451E57D09700BA2EC6 /* CustomView.swift in Sources */,
+				3C501E121E5A87C8000E2148 /* MyReservationsTableViewCell.swift in Sources */,
+				3CFB9D491E58CC4100BA2EC6 /* CalenderDatesCollectionViewCell.swift in Sources */,
+				3CFB9D4C1E58E01100BA2EC6 /* CalenderDates.swift in Sources */,
+				3CFB9D5C1E5A33BD00BA2EC6 /* PromoContentViewController.swift in Sources */,
+				3CFB9D581E5A0FB700BA2EC6 /* Utility.swift in Sources */,
+				3CFB9D401E57C4F500BA2EC6 /* ScheduleViewController.swift in Sources */,
+				3CFB9D5A1E5A339C00BA2EC6 /* SpaServiceViewController.swift in Sources */,
+				3C501E181E5AA289000E2148 /* Reservations+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -246,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -297,8 +397,22 @@
 				3CD971831E568EFB000138D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CFB9D881E5A5CB000BA2EC6 /* Reservation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CFB9D891E5A5CB000BA2EC6 /* Reservation.xcdatamodel */,
+			);
+			currentVersion = 3CFB9D891E5A5CB000BA2EC6 /* Reservation.xcdatamodel */;
+			path = Reservation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3CD971671E568EF9000138D8 /* Project object */;
 }
