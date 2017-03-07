@@ -45,8 +45,9 @@ class SpaServiceViewController: UIViewController
         
         setPageViewController()
         
+               
         //Images automatically scroll infinite
-        Timer.scheduledTimer(timeInterval: 4.0, target: self, selector: #selector(SpaServiceViewController.loadNextController), userInfo: nil, repeats: true)
+       // Timer.scheduledTimer(timeInterval: 4.0, target: self, selector: #selector(SpaServiceViewController.loadNextController), userInfo: nil, repeats: true)
 
         
     }
@@ -62,6 +63,7 @@ class SpaServiceViewController: UIViewController
     {
         let pageVC = self.storyboard?.instantiateViewController(withIdentifier: "promoPageVC") as! UIPageViewController
         pageVC.dataSource = self
+        pageVC.delegate = self
         
         let firstController = getViewController(atIndex: 0)
         
@@ -86,7 +88,7 @@ class SpaServiceViewController: UIViewController
         return promoContentVC
     }
     
-    @objc fileprivate func loadNextController()
+    /*@objc fileprivate func loadNextController()
     {
         currentIndex += 1
         
@@ -109,7 +111,7 @@ class SpaServiceViewController: UIViewController
         let nextController = getViewController(atIndex: currentIndex)
         self.pageViewController?.setViewControllers([nextController], direction: UIPageViewControllerNavigationDirection.forward, animated: true, completion: nil)
         self.pageControl.currentPage = currentIndex
-    }
+    }*/
     
     // MARK: - @IBAction Methods
     
@@ -123,7 +125,7 @@ class SpaServiceViewController: UIViewController
 // MARK: - UIPageViewControllerDatasource
 
 @available(iOS 10.0, *)
-extension SpaServiceViewController: UIPageViewControllerDataSource
+extension SpaServiceViewController: UIPageViewControllerDataSource, UIPageViewControllerDelegate
 {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController?
     {
@@ -161,6 +163,32 @@ extension SpaServiceViewController: UIPageViewControllerDataSource
         }
         
         return getViewController(atIndex: index)
+    }
+    
+    // MARK : - UIPageViewControllerDelegate
+    func pageViewController(_ pageViewController: UIPageViewController, willTransitionTo pendingViewControllers: [UIViewController]) {
+        print("willTransitionTo")
+        currentIndex = (pendingViewControllers.first as! PromoContentViewController).pageIndex
+    }
+    
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        print("didFinishAnimating")
+        self.pageControl.currentPage = currentIndex
+        enableOrDisableReserveButton()
+        
+    }
+    
+    func enableOrDisableReserveButton(){
+        if currentIndex == 0 || currentIndex == 2 || currentIndex == 3
+        {
+            reserveButton.backgroundColor = UIColor.getSelectionBlueColor()
+            reserveButton.isEnabled = false
+        }
+        else
+        {
+            reserveButton.backgroundColor = UIColor.getCustomBlueColor()
+            reserveButton.isEnabled = true
+        }
     }
 }
 

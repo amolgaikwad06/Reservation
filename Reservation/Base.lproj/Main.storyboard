@@ -28,7 +28,7 @@
                                         <rect key="frame" x="0.0" y="28" width="304" height="210"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O80-ma-R7x" id="sBT-5s-OTk">
-                                            <rect key="frame" x="0.0" y="0.0" width="304" height="210"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="304" height="209"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7tU-Xk-tni" userLabel="Container View" customClass="CustomView" customModule="Reservation" customModuleProvider="target">
@@ -261,7 +261,7 @@
                 <pageViewController storyboardIdentifier="promoPageVC" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="TVd-UU-bsX" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="69d-rv-Rub" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="686" y="-675"/>
+            <point key="canvasLocation" x="707" y="-397"/>
         </scene>
         <!--Spa Service View Controller-->
         <scene sceneID="hwL-rJ-b94">
